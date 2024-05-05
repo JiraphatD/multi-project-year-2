@@ -1,0 +1,84 @@
+body{
+    margin:auto;
+    display: flex;
+    background-color: rgb(245, 218, 159);
+    justify-content: center;
+    align-content: center;
+}
+
+#action{
+    /* background-color: greenyellow; //show area item */
+    transition: 250ms;
+}
+
+.stage{
+    top: 0;
+    left: 0;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.fixed{
+    margin: auto;
+    position: fixed;
+    transform-origin: center;
+    width: 100%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.assistant{
+    width: 11.5%;
+    height: auto;
+    position: absolute;
+    top: 34%;
+    left: 59.5%;
+}
+
+.book{
+    width: 7%;
+    height: auto;
+    position: absolute;
+    top: 36.5%;
+    left: 46.75%;
+}
+
+.clock{
+    width: 5.75%;
+    height: auto;
+    position: absolute;
+    top: 13%;
+    left: 40%;
+}
+
+.phone{
+    width: 3%;
+    height: auto;
+    position: absolute;
+    top: 48.25%;
+    left: 55.25%;
+}
+
+.table{
+    width: 15%;
+    height: auto;
+    position: absolute;
+    top: 36.5%;
+    left: 26%;
+}
+
+.tv{
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top: 18.5%;
+    left: 26%;
+}
+
+#action:hover{
+    cursor: pointer;
+    transform: scale(1.15, 1.15);
+}
